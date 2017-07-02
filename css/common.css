@@ -1,0 +1,58 @@
+
+body, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: "Helvetica Neue", "Luxi Sans", "DejaVu Sans", Tahoma, "Hiragino Sans GB", STHeiti, "Microsoft YaHei";
+    /*font-size: 2.0em;*/
+}
+h1, h2, h3 {
+    padding: -3px 0 !important;
+    text-align: center;
+}
+
+body {
+    padding: 0 3px;
+    margin: 2px 5px !important;
+    background-color: #EAEDF1;
+}
+
+div.audio {
+    overflow: hidden;
+    width: 35px;
+    position: absolute;
+    z-index: 100;
+}
+
+audio {
+    width: 70px !important;
+}
+
+div.chart-content {
+    margin-left: 5px;
+    width: 100%;
+    height:100%;
+}
+div.chart-content > div {
+    display: inline-block;
+    border: 1px inset yellowgreen;
+    border-radius: 5px;
+    padding: 2px 0 2px 2px;
+}
+
+div.chart_num_3 {
+    width: 33%;
+    height: 300px;
+}
+
+div.chart_num_3_low {
+    width: 32%;
+    height: 300px;
+}
+
+div.chart_num_2 {
+    width: 50%;
+    height: 300px;
+}
+
+div.chart_num_2_low {
+    width: 49%;
+    height: 300px;
+}
